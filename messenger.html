@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintHub Messenger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="messenger.css">
+</head>
+<body>
+    <div class="messenger-container">
+        <!-- Sidebar with conversations -->
+        <div class="conversations-sidebar">
+            <div class="sidebar-header">
+                <h2>Messages</h2>
+                <button class="new-message-btn">+</button>
+            </div>
+            <div class="conversation-list">
+                <div class="conversation active">
+                    <img src="https://via.placeholder.com/40" alt="User avatar" class="user-avatar">
+                    <div class="conversation-info">
+                        <div class="conversation-name">Marketing Team</div>
+                        <div class="conversation-preview">Latest updates on the campaign</div>
+                    </div>
+                    <div class="conversation-time">9:45 AM</div>
+                </div>
+                <!-- More conversation items -->
+            </div>
+        </div>
+
+        <!-- Main chat area -->
+        <div class="chat-area">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <img src="https://via.placeholder.com/40" alt="User avatar" class="user-avatar">
+                    <div class="chat-info">
+                        <div class="chat-name">Marketing Team</div>
+                        <div class="chat-status">Active now</div>
+                    </div>
+                </div>
+                <div class="chat-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-video"></i>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="messages-container">
+                <div class="message received">
+                    <img src="https://via.placeholder.com/32" alt="User avatar" class="message-avatar">
+                    <div class="message-content">
+                        <div class="message-text">I can give an update on prospective clients.</div>
+                        <div class="message-time">9:30 AM</div>
+                    </div>
+                </div>
+
+                <div class="message sent">
+                    <div class="message-content">
+                        <div class="message-text">That's great to hear. Any progress?</div>
+                        <div class="message-time">9:32 AM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-input-container">
+                <input type="text" placeholder="Send a message..." class="message-input">
+                <button class="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
