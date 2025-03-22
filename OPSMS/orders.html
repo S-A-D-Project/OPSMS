@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - Online Printing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand"> Online Printing Services</div>
+            <div class="nav-links">
+                <a href="index.html">Dashboard</a>
+                <a href="orders.html" class="active">Orders</a>
+                <a href="services.html">Services</a>
+                <a href="login.html" class="nav-login">Login</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="header-actions">
+            <h1>Orders</h1>
+            <button class="btn-primary">New Order</button>
+        </div>
+
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Service</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1001</td>
+                        <td>John Rey Dabaras</td>
+                        <td>Business Cards</td>
+                        <td><span class="status-badge pending">Pending</span></td>
+                        <td>Jan 15, 2024</td>
+                        <td>₱150</td>
+                    </tr>
+                    <tr>
+                        <td>#1002</td>
+                        <td>Venedik bragas</td>
+                        <td>Flyers</td>
+                        <td><span class="status-badge completed">Completed</span></td>
+                        <td>Jan 14, 2024</td>
+                        <td>₱250</td>
+                    </tr>
+                    <tr>
+                        <td>#1002</td>
+                        <td>Venedik bragas</td>
+                        <td>Flyers</td>
+                        <td><span class="status-badge completed">Completed</span></td>
+                        <td>Jan 14, 2024</td>
+                        <td>₱250</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
